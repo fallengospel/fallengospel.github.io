@@ -453,11 +453,10 @@ header {
 
 /* Sample Porfolio Project */
 
-.portfolio-item-sample{
+.portfolio-item-sample {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: auto 0;
-
 }
 
 .portfolio-item-sample p {
@@ -465,5 +464,3 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
-
