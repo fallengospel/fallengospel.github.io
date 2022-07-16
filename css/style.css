@@ -385,9 +385,9 @@ header {
 }
 
 .portfolio {
-  display:inline-block;
+  display: inline-flex;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  max-width: 200px;
+  max-width: 250px;
   margin: auto 0;
 }
 
