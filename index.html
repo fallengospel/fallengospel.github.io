@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <!-- Update these with you own font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Gabriel Amores</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+      <img src="img/me.jpg" alt="a picture of me smiling" class="intro__img" />
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Development</h3>
+          <p>
+            I have the basic knowledge in the area of front-end development
+            using java scripts, Html, and CSS I have come across languages like
+            java, C#, and python while schooling I am currently studying react
+            and react hooks as of this day.
+          </p>
+        </div>
+        <!--/ service-->
+
+        <div class="service">
+          <h3>Photo Editing</h3>
+          <p>
+            Basic photo editing using canva and gimp I make logos for shirts,
+            games, food-business, etc. I also remove background images for you
+            as well make album covers and mobile and desktop wallpaper.
+          </p>
+        </div>
+
+        <!--/ service-->
+
+        <div class="service">
+          <h3>Software Tester</h3>
+          <p>
+            I also provide software testing on Mobile and desktop applications
+            it may be a business website, mobile app, or desktop app as long as
+            it meets my system requirement I can test it and would also provide
+            feedback depending on the client's need.
+          </p>
+        </div>
+
+        <!--/ service-->
+      </div>
+      <!--/ services-->
+      <a href="#work" class="btn">my Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Aspiring Web Developer
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I graduated with a bachelor's degree in computer science. Aiming to
+          improve skills with regards to my field and flexible enough to handle
+          other task as well as to be exposed into a working environment that
+          will challenge my skills and capabilities. I am great at communicating
+          with people and can adjust to the environment quickly.
+        </p>
+        <p>
+          I am an intern for three months in the city planning development
+          office. We were introduced to using the manifold GIS (geographical
+          information system) we use the software in making maps in different
+          barrios within our area. We also use the software in identifying the
+          different parts of the areas within the map expi landmarking
+          establishments, streets small businesses, etc.
+        </p>
+      </div>
+
+      <img src="img/me1.jpg" alt="Gab Presenting" class="about-me__img" />
+    </section>
+
+    <!--My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Sample Project
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio Sample01-->
+        <a href="portfolio.html" class="portfolio__item">
+          <img src="img/deseyener.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:amores_dominic@yahoo.com" class="footer__link"
+        >amores_dominic@yahoo.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/fallengospel">
+            <i class="fab fa-github-square"></i
+          ></a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/gabriel-a-543373145/"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://web.facebook.com/fallengospel"
+          >
+            <i class="fab fa-facebook-square"></i
+          ></a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/arkanghel_gabriel/"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
